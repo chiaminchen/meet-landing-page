@@ -1,0 +1,37 @@
+.button {
+  font-weight: var(--font-weight-black);
+  line-height: var(--leading-relaxed);
+  color: var(--color-white);
+  padding: var(--spacing-4) var(--spacing-10);
+  border: none;
+  border-radius: var(--radius-button);
+  white-space: nowrap;
+}
+
+.button[data-color='cyan'] {
+  background-color: var(--color-cyan-600);
+  transition: background-color 0.25s;
+}
+
+.button[data-color='cyan']:hover,
+.button[data-color='cyan']:active {
+  background-color: var(--color-cyan-hover);
+}
+
+.button[data-color='cyan'] span {
+  color: var(--color-cyan-300);
+}
+
+.button[data-color='purple'] {
+  background-color: var(--color-purple-600);
+  transition: background-color 0.25s;
+}
+
+.button[data-color='purple']:hover,
+.button[data-color='purple']:active {
+  background-color: var(--color-purple-hover);
+}
+
+.button[data-color='purple'] span {
+  color: var(--color-purple-300);
+}

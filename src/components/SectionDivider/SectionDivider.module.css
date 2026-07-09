@@ -1,0 +1,24 @@
+.sectionDivider {
+  font-weight: var(--font-weight-black);
+  line-height: var(--leading-relaxed);
+  width: var(--width-section-divider);
+  height: var(--width-section-divider);
+  border: 1px solid var(--color-slate-300);
+  border-radius: 50%;
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--spacing-20);
+  position: relative;
+}
+
+.sectionDivider::before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 1px;
+  height: var(--height-divider);
+  background-color: var(--color-slate-300);
+}

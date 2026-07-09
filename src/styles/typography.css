@@ -1,0 +1,46 @@
+body {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--leading-normal);
+  text-align: center;
+  color: var(--color-slate-600);
+}
+
+h1,
+h2 {
+  font-weight: var(--font-weight-black);
+  color: var(--color-slate-900);
+}
+
+h1 {
+  font-size: var(--font-size-h1-mt-fluid);
+}
+
+h2 {
+  font-size: var(--font-size-h2-mt-fluid);
+}
+
+p {
+  line-height: var(--leading-relaxed);
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+@media (min-width: 48em) {
+  h1 {
+    font-size: var(--font-size-h1-td-fluid);
+  }
+
+  h2 {
+    font-size: var(--font-size-h2-td-fluid);
+  }
+
+  p {
+    font-size: var(--font-size-text-td-fluid);
+  }
+}

@@ -1,0 +1,87 @@
+:root {
+  --color-cyan-600: #4d96a9;
+  --color-cyan-300: #8fe3f9;
+  --color-cyan-hover: #71c0d4;
+  --color-purple-600: #855fb1;
+  --color-purple-300: #d9b8ff;
+  --color-purple-hover: #b18bdd;
+  --color-slate-900: #28283d;
+  --color-slate-600: #87879d;
+  --color-slate-300: #d1d1df;
+  --color-white: #fafafa;
+
+  --color-cta-bg: rgba(77, 150, 168, 0.85);
+
+  --font-sans: 'Red Hat Display', sans-serif;
+
+  --font-size-sm: 1rem; /* 16px */
+  --font-size-md: 1.125rem; /* 18px */
+
+  --font-size-caption-mt-fluid: clamp(
+    0.75rem,
+    0.6307rem + 0.5089vw,
+    0.875rem
+  ); /* 12px - 14px mobile - tablet */
+  --font-size-caption-td-fluid: clamp(
+    0.875rem,
+    0.6875rem + 0.3906vw,
+    1rem
+  ); /* 14px - 16px tablet - desktop */
+  --font-size-text-td-fluid: clamp(
+    1rem,
+    0.8125rem + 0.3906vw,
+    1.125rem
+  ); /* 16px - 18px tablet - desktop */
+  --font-size-h1-mt-fluid: clamp(
+    2.5rem,
+    2.0229rem + 2.0356vw,
+    3rem
+  ); /* 40px - 48px mobile - tablet */
+  --font-size-h1-td-fluid: clamp(3rem, 1.5rem + 3.125vw, 4rem); /* 48px - 64px tablet - desktop */
+  --font-size-h2-mt-fluid: clamp(
+    2rem,
+    1.7615rem + 1.0178vw,
+    2.25rem
+  ); /* 32px - 36px mobile - tablet */
+  --font-size-h2-td-fluid: clamp(
+    2.25rem,
+    1.875rem + 0.7813vw,
+    2.5rem
+  ); /* 36px - 40px tablet - desktop */
+
+  --font-weight-medium: 500;
+  --font-weight-black: 900;
+
+  --leading-normal: 1.1;
+  --leading-relaxed: 1.5;
+
+  --letter-spacing-wide: 0.25rem; /* 4px */
+
+  --spacing-1: 0.25rem; /* 4px */
+  --spacing-2: 0.5rem; /* 8px */
+  --spacing-4: 1rem; /* 16px */
+  --spacing-5: 1.25rem; /* 20px */
+  --spacing-6: 1.5rem; /* 24px */
+  --spacing-8: 2rem; /* 32px */
+  --spacing-10: 2.5rem; /* 40px */
+  --spacing-12: 3rem; /* 48px */
+  --spacing-16: 4rem; /* 64px */
+  --spacing-20: 5rem; /* 80px */
+  --spacing-25: 6.25rem; /* 100px */
+  --spacing-28: 7rem; /* 112px */
+  --spacing-40: 10rem; /* 160px */
+
+  --spacing-divider: -1.75rem; /* -28px */
+
+  --radius-button: 10rem;
+  --radius-image-card: 0.5rem; /* 8px */
+
+  --width-hero-content: 28rem; /* 448px */
+  --width-section-divider: 3.5rem; /* 56px */
+  --width-content: 70rem; /* 1120px */
+  --width-features-content-fluid: clamp(31.5rem, 27.75rem + 7.8125vw, 34rem); /* 504px - 544px */
+  --width-features-content-h2: 28rem; /* 448px */
+  --width-cta-content: 31.5rem; /* 504px*/
+
+  --height-divider: 5rem; /* 80px */
+}

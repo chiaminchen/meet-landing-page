@@ -1,0 +1,6 @@
+.imageCard {
+  border-radius: var(--radius-image-card);
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

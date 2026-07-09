@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/chiaminchen/meet-landing-page](https://github.com/chiaminchen/meet-landing-page)
-- Live Site URL: []()
+- Live Site URL: [https://meet-landing-page-henna-three.vercel.app/](https://meet-landing-page-henna-three.vercel.app/)
 
 ## My process
 
